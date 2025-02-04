@@ -6,57 +6,59 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Регистрация</h1>
-      <p>Уже есть аккаунт? <a href="/singIn">Войти</a></p>
-    </header>
     <main>
-      <section>
+      <div>
         <form action="">
-          <input
-            type="text"
-            name="company"
-            id="company"
-            placeholder="Название компании"
-            required
-          />
+          <div>
+            <h1>Регистрация</h1>
+            <p>Уже есть аккаунт? <a href="/singIn">Войти</a></p>
+          </div>
           <div>
             <input
               type="text"
-              name="name"
-              id="name"
-              placeholder="Имя"
+              name="company"
+              id="company"
+              placeholder="Название компании"
               required
             />
-            <input
-              type="text"
-              name="lastname"
-              id="lastname"
-              placeholder="Фамилия"
-              required
-            />
-          </div>
-          <div>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="E-mail"
-              required
-            />
-          </div>
-          <div>
-            <button type="submit" id="Register">Зарегистрироваться</button>
-          </div>
-          <div>
-            <input type="checkbox" name="agreement" id="agreement" required />
-            <label for="agreement">
-              Я прочитал и принимаю
-              <a href="/agreementlicense">Условия использования</a>
-            </label>
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Имя"
+                required
+              />
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Фамилия"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div>
+              <button type="submit" id="Register">Зарегистрироваться</button>
+            </div>
+            <div>
+              <input type="checkbox" name="agreement" id="agreement" required />
+              <label for="agreement">
+                Я прочитал и принимаю
+                <a href="/agreementlicense">Условия использования</a>
+              </label>
+            </div>
           </div>
         </form>
-      </section>
+      </div>
     </main>
   </body>
 </html>
