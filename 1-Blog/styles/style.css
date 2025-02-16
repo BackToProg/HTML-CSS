@@ -1,0 +1,158 @@
+main section {
+    margin-bottom: 28px;
+}
+
+article {
+    margin: 0px;
+}
+
+footer {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 158%;
+    margin: 0px;
+    /* text-align: center; */
+}
+
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 78px 192px;
+    margin-bottom: 80px;
+}
+
+main {
+    margin: 0;
+    margin-bottom: 103px;
+    /* text-align: center; */
+}
+
+.main-image {
+    margin-bottom: 69px;
+}
+
+.text.header-text,
+#text-separator {
+    margin: 6px 12px;
+}
+
+.text.header-text:last-child,
+#text-separator:last-child {
+    margin-right: 0;
+}
+
+.text {
+    font-family: 'Roboto', "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.blogtext {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin: 6px 12px;
+}
+
+.nav-text {
+    font-size: 16px;
+}
+
+.home-link-text {
+    font-size: 18px;
+}
+
+.header-text {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.author-text {
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.author-subtext {
+    font-size: 14px;
+    line-height: 200%;
+    opacity: 0.6;
+}
+
+.text-first-paragraph {
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.text-paragraph {
+    font-size: 16px;
+    line-height: 187%;
+    text-decoration-skip-ink: none;
+}
+
+.text-footer {
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.main-image {
+    border-radius: 5px;
+}
+
+.article-header {
+    margin-bottom: 30px;
+}
+
+.article-p {
+    margin-bottom: 14px;
+}
+
+
+#myBlogLabel {
+    border-radius: 3px;
+    width: 35px;
+    height: auto;
+    padding: 6px 0;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    background: #4b5563;
+}
+
+#search {
+    background: #283241;
+    border-radius: 100px;
+    border: 0;
+}
+
+#text-separator {
+    border-radius: 100px;
+    width: 4px;
+    height: 4px;
+    color: #ADB1B7;
+}
+
+#author-photo {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}

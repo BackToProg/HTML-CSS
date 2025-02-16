@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <main>
@@ -11,7 +12,9 @@
         <form action="">
           <div>
             <h1>Регистрация</h1>
-            <p>Уже есть аккаунт? <a href="/singIn">Войти</a></p>
+            <p>
+              Уже есть аккаунт? <a href="/singIn" class="big-link">Войти</a>
+            </p>
           </div>
           <div>
             <input
@@ -26,6 +29,7 @@
                 type="text"
                 name="name"
                 id="name"
+                class="greyInput"
                 placeholder="Имя"
                 required
               />
@@ -33,6 +37,7 @@
                 type="text"
                 name="lastname"
                 id="lastname"
+                class="greyInput"
                 placeholder="Фамилия"
                 required
               />
@@ -42,6 +47,7 @@
                 type="email"
                 name="email"
                 id="email"
+                class="greyInput"
                 placeholder="E-mail"
                 required
               />
@@ -50,10 +56,18 @@
               <button type="submit" id="Register">Зарегистрироваться</button>
             </div>
             <div>
-              <input type="checkbox" name="agreement" id="agreement" required />
-              <label for="agreement">
+              <input
+                type="checkbox"
+                name="agreement"
+                id="agreement"
+                class="checkmark"
+                required
+              />
+              <label for="agreement" class="agreement-text">
                 Я прочитал и принимаю
-                <a href="/agreementlicense">Условия использования</a>
+                <a href="/agreementlicense" class="small-link"
+                  >Условия использования</a
+                >
               </label>
             </div>
           </div>
