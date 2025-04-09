@@ -4,32 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Blog</title>
   </head>
   <body>
     <header class="text">
-      <div>
+      <div class="nav-flex">
         <a href="#" class="home-link-text">
-          <div id="myBlogLabel"><span class="blogtext">B</span></div>
+          <!-- <div id="myBlogLabel"><span class="blogtext">B</span></div> -->
+          <span class="blogtext">B</span>
           Мой Блог
         </a>
       </div>
-      <nav>
+      <nav class="nav-flex">
         <ul class="text nav-text">
           <li><a href="#">HTML и CSS</a></li>
           <li><a href="#">Frontend</a></li>
           <li><a href="#">Backend</a></li>
         </ul>
       </nav>
-      <input
-        type="search"
-        id="search"
-        class="text header-text"
-        placeholder="Поиск"
-      />
+      <div class="search-container">
+        <img src="./images/search.png" alt="Search" class="search-icon" />
+        <input type="search" id="search" class="text" placeholder="Поиск" />
+      </div>
     </header>
     <main>
-      <section>
+      <section class="header-section">
         <div class="article-header">
           <p class="article-p">
             <span class="text header-text">FRONTEND</span>
@@ -42,21 +47,23 @@
             Теория цвета - Как цвет влияет на поведение потребителей
           </h1>
         </div>
-        <div>
+        <div class="author-section">
           <img
             src="./images/Ellipse 1.jpg"
             alt="Фото автора статьи"
             id="author-photo"
           />
           <div>
-            <p class="text author-text">Наталья Васильева.</p>
+            <p class="text author-text">Наталья Васильева</p>
             <p class="text author-subtext">Разработчик</p>
           </div>
         </div>
       </section>
       <article>
-        <img src="./images/image1.png" alt="Main image" class="main-image" />
-        <section>
+        <div class="image-container">
+          <img src="./images/image1.png" alt="Main image" class="main-image" />
+        </div>
+        <section class="text-section">
           <p class="text text-first-paragraph">
             Теория цвета — это особенности эмоционального восприятия человеком
             тех или иных цветовых решений. Цвета и различные их комбинации
