@@ -3,21 +3,25 @@
 }
 
 body {
-    /* background: #f39494, linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%); */
-    background: #f39494;
-    display: block;
+    background:
+        linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%),
+        linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
+        #f39494;
     margin: 8px;
     min-width: 320px;
 }
 
 main {
     background-color: #FFFEFE;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin: auto;
     width: 100%;
     max-width: 582px;
     height: 573px;
-    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 600px) {
@@ -56,14 +60,30 @@ p {
 
 button {
     background-color: #089FE0;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
     height: 44px;
     border-radius: 5px;
     outline: none;
     border: none;
+    position: relative;
+    padding: 0 44px 0 44px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+button img {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 input {
@@ -91,7 +111,7 @@ input {
     font-size: 18px;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-skip-ink: false;
+    text-decoration-skip-ink: none;
     color: #089FE0;
     margin-left: 6px;
 }
@@ -106,7 +126,6 @@ input {
 
 .greyInput {
     border: 1px;
-    border-color: #FFFFFF;
     background-color: #F5F5F5;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -122,15 +141,30 @@ input {
     background-color: #F5F5F5;
     border: 1px solid #eee;
     border-radius: 5px;
-    margin: 0px 2px 0px 0px;
+    margin: 0;
+    margin-right: 4px;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    padding: 1px 0 2px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .agreement-text {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-style: italic;
     font-size: 14px;
     color: #666666;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    /* Запрещаем перенос текста */
 }
 
 .mainarea {
@@ -142,8 +176,9 @@ input {
     flex-direction: column;
     width: 100%;
     max-width: 100%;
+    min-width: 394px;
     margin: 0 auto;
-    gap: 21px;
+    gap: 22px;
 }
 
 .name {
