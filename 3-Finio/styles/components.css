@@ -243,7 +243,7 @@
     /* width: 369px; */
     /* height: 571px; */
     fill: var(--color-white-text);
-    box-shadow: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+    box-shadow: 0 0 32px 0 var(--color-grey-opacity-16);
 }
 
 .card__best-value {

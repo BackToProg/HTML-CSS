@@ -1,5 +1,6 @@
 :root {
     --color-bg: #fff;
+    --color-footer: #1a1d25;
     --color-white-text: #fff;
     --color-white-opacity-80: rgba(255, 255, 255, 0.8);
     --color-white-opacity-16: rgba(255, 255, 255, 0.16);
@@ -12,6 +13,7 @@
     --color-text-blue: #357EFE;
     --color-divider: rgba(78, 93, 124, 0.08);
     --color-grey-opacity-50: rgba(78, 93, 124, 0.5);
+    --color-grey-opacity-16: rgba(78, 93, 124, 0.16);
     --color-green: #1abc9c;
     --color-grey: #4e5d7c;
     --color-yellow: #ffc736;

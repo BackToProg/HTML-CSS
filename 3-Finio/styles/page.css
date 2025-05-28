@@ -500,16 +500,6 @@
         overflow: hidden;
     }
 
-    /* .review__container::after {
-        content: "";
-        position: absolute;
-        top: 45.5%;
-        z-index: 1;
-        height: 8px;
-        width: 100%;
-        background-color: var(--color-bg-blue);
-    } */
-
 
     .review__text,
     .review__image {
