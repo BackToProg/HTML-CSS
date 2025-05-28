@@ -1,0 +1,493 @@
+/* Section */
+
+.section__hero {
+    background: linear-gradient(173deg,
+            var(--color-bg-blue) 0%,
+            var(--color-bg-blue) 59.9%,
+            var(--color-bg) 60.1%,
+            var(--color-bg) 100%);
+}
+
+.section__value {
+    background-color: var(--color-bg-blue);
+}
+
+.section__wrapper {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.section_support {
+    background-color: var(--color-bg-blue);
+    border-radius: 16px;
+    margin-bottom: 84px;
+}
+
+.section__tariffs {
+    margin-bottom: 82px;
+}
+
+.section__review {
+    margin-bottom: 80px;
+}
+
+/* Buttons */
+
+.button {
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--color-text-blue);
+    background-color: var(--color-bg);
+    border-radius: 34px;
+    padding: 12px 32px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-blue {
+    background-color: var(--color-bg-blue);
+    color: var(--color-white-text);
+}
+
+.hero__button-cta {
+    margin-bottom: 40px;
+}
+
+.value__button-cta {
+    margin-bottom: 40px;
+}
+
+/* Divider */
+
+.mobile-divider {
+    display: none;
+    border: 0;
+}
+
+.divider {
+    border-top: 1px solid var(--color-divider);
+}
+
+.divider-blue-card {
+    border-top: 1px solid var(--color-white-opacity-16);
+}
+
+.divider-white-card {
+    border-top: 1px solid var(--color-divider);
+}
+
+.divider__grid {
+    grid-column: 1 / -1;
+}
+
+.footer__devider {
+    border-top: 1px solid var(--color-white-opacity-8);
+}
+
+
+.hide-visually {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* MAIN BLOCKS */
+
+.main__text-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__text-left .content {
+    margin-left: 118px;
+}
+
+.main__text-right .content {
+    margin-right: 118px;
+}
+
+.content__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: var(--color-black);
+}
+
+.content__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--color-grey-opacity-50)
+}
+
+.main__text-left .main__image {
+    margin-bottom: 40px;
+    margin-top: 63px;
+}
+
+.main__text-right .main__image {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.main__text-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1-adaptive {
+    width: 729px;
+    height: 445px
+}
+
+.img2-adaptive {
+    width: 644px;
+    height: 444px;
+}
+
+.img3-adaptive {
+    width: 641px;
+    height: 416px;
+}
+
+.img4-adaptive {
+    width: 643px;
+    height: 372px;
+}
+
+/* Compare TAB */
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 24px;
+}
+
+.tab__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--color-white-text);
+}
+
+.tab__enumerator {
+    display: flex;
+    gap: 8px;
+}
+
+.tab__compare-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--color-white-opacity-80);
+}
+
+/* Benefits Chip */
+
+.chip {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+}
+
+.chip__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--color-black);
+}
+
+.chip_description {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-grey-opacity-50);
+
+}
+
+.chip__image {
+    width: 80px;
+    height: 80px;
+}
+
+/* SOCIAL_ITEM */
+
+.social__item {
+    display: flex;
+    gap: 16px;
+}
+
+.social__item-text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-white-text);
+}
+
+/* Tariffs Card */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 48px 40px;
+    gap: 16px;
+    border-radius: 8px;
+    /* width: 369px; */
+    /* height: 571px; */
+    fill: var(--color-white-text);
+    box-shadow: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+}
+
+.card__best-value {
+    background: var(--color-bg-blue);
+}
+
+.card__discount {
+    width: fit-content;
+    border-radius: 8px;
+    padding: 4px 16px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--color-white-text);
+    background: var(--color-green);
+}
+
+.card__discount strong {
+    font-weight: 800;
+}
+
+.discount-value {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+    padding: 8px 16px;
+    width: fit-content;
+    border-radius: 8px;
+    color: var(--color-white-text);
+    background: var(--color-yellow);
+    margin: -8px 0;
+}
+
+
+.card__h4 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    align-items: start;
+    color: var(--color-black)
+}
+
+.card__h4-wite {
+    color: var(--color-white-text);
+}
+
+.card__tariff-description {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-grey-opacity-50);
+    margin-bottom: 34px;
+
+}
+
+.card__tariff-description-white {
+    color: var(--color-white-opacity-60);
+    margin-bottom: 16px;
+}
+
+.card-value {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: start;
+
+}
+
+.card-value__row {
+    display: contents;
+}
+
+.card-value__row-label {
+    grid-column: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-value__row-value {
+    grid-column: 2;
+}
+
+.card-value__row-text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 120%;
+    color: var(--color-grey);
+}
+
+.card-value__row-text-white {
+    color: var(--color-white-text);
+}
+
+.margin-reduced {
+    margin-top: -6px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1550px) {
+    .section__hero {
+        background: linear-gradient(173deg,
+                var(--color-bg-blue) 0%,
+                var(--color-bg-blue) 63.9%,
+                var(--color-bg) 64.1%,
+                var(--color-bg) 100%);
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .section__hero {
+        background: linear-gradient(173deg,
+                var(--color-bg-blue) 0%,
+                var(--color-bg-blue) 67.9%,
+                var(--color-bg) 68.1%,
+                var(--color-bg) 100%);
+    }
+
+    .card__tariff-description {
+        font-size: 15px;
+
+    }
+}
+
+@media (max-width: 1300px) {
+    .section__hero {
+        background: linear-gradient(173deg,
+                var(--color-bg-blue) 0%,
+                var(--color-bg-blue) 73.9%,
+                var(--color-bg) 74.1%,
+                var(--color-bg) 100%);
+    }
+
+    .chip__image {
+        width: 64px;
+        height: 64px;
+    }
+
+    .chip__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+    }
+}
+
+
+/* 1170px */
+@media (max-width: 1200px) {
+    .mobile-divider {
+        border-top: 1px solid var(--color-white-opacity-16);
+        display: block;
+        margin: 0 24px;
+
+    }
+
+    .divider {
+        margin: 0 24px 48px;
+    }
+
+    .hero__button-cta {
+        margin-bottom: 24px;
+    }
+
+    .section__hero {
+        background: linear-gradient(173deg,
+                var(--color-bg-blue) 0%,
+                var(--color-bg-blue) 78.5%,
+                var(--color-bg) 78.7%,
+                var(--color-bg) 100%);
+    }
+
+    .main__text-left {
+        flex-direction: column;
+    }
+
+    .main__text-left .content {
+        margin: 0;
+        order: 2;
+        margin-bottom: 48px;
+    }
+
+    .main__text-left .main__image {
+        order: 1;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .main__text-right {
+        flex-direction: column;
+    }
+
+    .main__text-right .content {
+        margin: 0;
+        margin-bottom: 48px;
+    }
+
+    .main__text-right .main__image {
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .img1-adaptive {
+        width: 356px;
+        height: 218px;
+    }
+
+    .img2-adaptive {
+        width: 328px;
+        height: 226px;
+    }
+
+    .img3-adaptive {
+        width: 327px;
+        height: 213px;
+    }
+
+    .img4-adaptive {
+        width: 327px;
+        height: 189px;
+    }
+
+    .content__title {
+        font-size: 32px;
+    }
+
+    .section__mobile {
+        padding-right: 0;
+    }
+
+    .chip {
+        margin-bottom: 4px;
+    }
+
+    .section_support {
+        border-radius: 0;
+    }
+
+    .card {
+        padding: 40px 24px;
+        width: 328px;
+    }
+
+}
